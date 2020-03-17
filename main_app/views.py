@@ -1,6 +1,10 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.views.generic.edit import CreateView
 from .models import Finch
+
+class FinchCreate(CreateView):
+  model = Finch
+  fields = '__all__'
 
 # Create your views here.
 
