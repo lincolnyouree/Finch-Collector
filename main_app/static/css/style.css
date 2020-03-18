@@ -1,3 +1,7 @@
+* {
+  background-image: url(https://i.imgur.com/mv9ZC9v.jpg);
+}
+
 body {
     display: flex;
     min-height: 100vh;
