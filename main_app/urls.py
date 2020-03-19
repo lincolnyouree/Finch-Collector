@@ -18,4 +18,5 @@ urlpatterns = [
   path('poops/create/', views.PoopCreate.as_view(), name='poops_create'),
   path('poops/<int:pk>/update/', views.PoopUpdate.as_view(), name='poops_update'),
   path('poops/<int:pk>/delete/', views.PoopDelete.as_view(), name='poops_delete'),
+  path('accounts/signup/', views.signup, name='signup'),
 ]
