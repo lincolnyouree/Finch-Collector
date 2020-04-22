@@ -1,6 +1,6 @@
 # Finch Collector
 
-![Wireframe](https://i.imgur.com/dwG0BX0.jpg)
+![Wireframe](https://i.imgur.com/YhojKOT.png)
 
 * A full-stack Python app for collecting finches.
 
